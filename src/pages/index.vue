@@ -1,7 +1,6 @@
 <template>
-<div class="container">
-  <Tutorial />
-  <h1 class="h1">たいとる</h1>
+  <div class="container">
+    <Tutorial />
   </div>
 </template>
 
@@ -13,10 +12,7 @@ export default {
 
 <style lang="scss" scoped>
 .container {
-  background-color: yellow;
-  h1 {
-  font-size: 24px;
-}
-
+  display: flex;
+  width: 100%;
 }
 </style>
